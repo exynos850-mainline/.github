@@ -1,6 +1,6 @@
 ## Welcome, this is where linux and AOSP is developed for the Galaxy A13 Exynos variants.
 
-![The Samsung Galaxy A13 (Exynos) is built on the Exynos850 Chipset.](https://www.businesskorea.co.kr/news/photo/202204/91014_105252_4128.png)
+![The Samsung Galaxy A13 (Exynos) is built on the Exynos850 Chipset.](https://www.whatmobile.com.pk/control/news/assets/16122021/5b98474751eaa30307dee399cdf8fb4b_feat.jpg)
 
 ### General information - Galaxy A13
 
@@ -15,7 +15,7 @@ The 4G variant has a quad camera setup, including a 50MP wide-angle, 5MP ultrawi
 ### Info about the Exynos 850
 
 ####  Exynos 850 Boot Flow
-![Exynos 850 boot sequence]([(https://docs.u-boot.org/en/latest/_images/exynos850-boot-architecture.svg)])
+![Exynos 850 boot sequence](https://docs.u-boot.org/en/latest/_images/exynos850-boot-architecture.svg)
 - Refer to https://docs.u-boot.org/en/latest/board/samsung/e850-96.html for abit more info about this
 
 On a “power-on” event, the processor starts executing code at address 0x00000000 where the internal ROM (iROM) is mapped. iROM contains the Boot ROM code (BL0). All other bootloaders are stored in external storage (usually eMMC), so the user can update those later.
