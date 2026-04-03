@@ -1,4 +1,4 @@
-## Welcome, this is where linux and AOSP is developed for the Galaxy A13 Exynos variants.
+## Linux and AOSP development space for the Galaxy A13
 
 ![The Samsung Galaxy A13 (Exynos) is built on the Exynos850 Chipset.](https://www.whatmobile.com.pk/control/news/assets/16122021/5b98474751eaa30307dee399cdf8fb4b_feat.jpg)
 
@@ -30,6 +30,14 @@ The WinLink E850-96 board is also implemented in the mainline Linux kernel and U
 Currently, the Samsung Galaxy A12 Nacho is implemented in UniLoader, a secondary bootloader used for a variety of purposes. The Samsung Galaxy A13 is WIP in a fork.
 
 - Credits: [U-Boot Docs](https://docs.u-boot.org/en/latest/board/samsung/e850-96.html)
+
+### Current projects
+
+#### Currently working on the following for the Galaxy A13:
+
+- exynos850-mainline (paused, waiting for famfo to progress)
+- postmarketOS (downstream as of now)
+- AOSP custom roms.
 
 ---
 
