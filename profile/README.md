@@ -1,53 +1,36 @@
-## Hey, this is us 👋
+## Welcome, this is where linux and AOSP is developed for the Galaxy A13 Exynos variants.
 
-![An illustration showing a variety of differently themed Octocats. Monuments from different cities are indicated in the background like the Space Needle, Berlin Fernsehturm and Transamerica Pyramid.](https://user-images.githubusercontent.com/3369400/133268513-5bfe2f93-4402-42c9-a403-81c9e86934b6.jpeg)
+![The Samsung Galaxy A13 (Exynos) is built on the Exynos850 Chipset.]([(https://www.businesskorea.co.kr/news/photo/202204/91014_105252_4128.png)])
 
-Yes, we are building GitHub on GitHub. In fact, we’ve been doing this since **October 19th, 2007**. That's when we made our first commit. Since then we pushed **over 2.5 million commits**, opened **over 1 million issues**, submitted roughly **650k pull requests** across **4357 repositories** from over **50 countries**. 🤯 But that's just us. We are proud  to be part of the work of millions of developers, companies and robots across the solar system. 🪐 Yes, [Robots](https://github.com/readme/featured/nasa-ingenuity-helicopter)!
+### General information - Galaxy A13
 
-### 🍿 An interconnected community
+**Seperate to the Samsung Galaxy M13 and F13. Also seperate to the A137F**
 
-The open source community is the 💗 heart of GitHub and fundamental to how we build software today. See for yourself:
+The Samsung Galaxy A13 **Exynos** is a budget Android smartphone made by Samsung. The 4G Exynos variant was released on the 4th of March 2022, running One UI 4.1 (Android 12), being upgradable to One UI 6.1 (Android 14). Despite this being a modern smartphone, Samsung chose to restrict it to a 32bit system, which can be bypassed via a custom rom or port of some sorts. This device has ram options from 3-6GB, and storage options from 32-128GB, with an eMMC 5.1 storage being present in the phone.
 
-- [GitHub Sponsors](https://github.com/sponsors) helped support more than **5k** individuals and projects around the world 🌍
-- Open source projects on GitHub received a stunning **218 million** contributions 🚀 in the last year alone
-- **Every minute** a developer creates a new release 🏄 for a public project on GitHub
+The 4G variant has a quad camera setup, including a 50MP wide-angle, 5MP ultrawide angle, 2MP macro and 2MP depth sensor. The main camera however has a true resolution of 12.5MP. The front camera has a resolution of 8MP and an aperture of f/2.2 (wide). Both the main and front cameras are capable of recording videos in 1080p@30fps resolution.
 
-Now that we are talking about the important things, ☝️ are you contributing to open source? Yes? Okay, you rock! 🎸 If not, we can help you get started! Open source software is made by people just like you. Learn more about [how to contribute](https://opensource.guide/).
+- Credits: [Wikipedia](https://en.wikipedia.org/wiki/Samsung_Galaxy_A13)
 
-### 🦦 Contributing to the ecosystem
+### Info about the Exynos 850
 
-We contribute to the tools 🔧 we rely on to build and run GitHub, while also maintaining 🧙‍♂️ our own open source projects like:
+####  Exynos 850 Boot Flow
+![Exynos 850 boot sequence]([(https://docs.u-boot.org/en/latest/_images/exynos850-boot-architecture.svg)])
+- Refer to https://docs.u-boot.org/en/latest/board/samsung/e850-96.html for abit more info about this
 
-- [GitHub CLI](https://github.com/cli/cli) - A command line tool for GitHub
-- [GitHub Desktop](https://github.com/desktop/desktop) - A visual approach to using Git with GitHub
-- [Git Large File Storage](https://github.com/git-lfs/git-lfs) - A Git extension for versioning large files
-- [Primer](https://github.com/primer/css) - The GitHub design system
+On a “power-on” event, the processor starts executing code at address 0x00000000 where the internal ROM (iROM) is mapped. iROM contains the Boot ROM code (BL0). All other bootloaders are stored in external storage (usually eMMC), so the user can update those later.
 
-### 👓 Appendix
+By default the board is configured to boot from eMMC. On power-on, the Boot ROM code (BL0) jumps to the beginning of eMMC boot partition 0 (mmc0boot0) where BL1 must reside. The boot flow then progresses through multiple various bootloaders (as shown in Figure 1), eventually ending up executing U-Boot (designated as “Bootloader” in the figure).
 
-See what's next on our [public roadmap](https://github.com/github/roadmap) ✨ and [let us know](https://github.com/github/feedback) if you have any suggestions. 🙇‍♂️ Oh, and by the way, we are always hiring talented, passionate people to [join our team](https://github.com/about/careers). 🙌
+The Exynos850 has some support for custom operating systems, with postmarketOS being in development for the Galaxy A13 and A12 Nacho. The Galaxy A12 Nacho, Galaxy A13 and Galaxy A21s have all had/currently have support for a custom operating system, either an Android Custom ROM or postmarketOS (Only for Galaxy A13 as of 03/04/26). The A12 Nacho is currently WIP in getting a mainline kernel port, along with the A13.
 
-<details> 
-	<summary>"Tell me more, I can't get enough!"</summary>
-	<br>
-	<ul>
-	<li>GitHub is built using mighty 🔨 open source technologies like <a href="https://github.com/rails">Ruby on Rails</a>, <a href="https://github.com/golang">Go</a>, <a href="https://github.com/primer">Primer</a>, <a href="https://github.com/reactjs">React</a> and <a href="https://github.com/apache/kafka">Kafka</a> among others.</li>
-		<li>The three open source projects GitHub members have most contributed 👩‍💻 to are:
-			<ul>
-				<li><a href="https://github.com/microsoft/vscode">Visual Studio Code</a></li>
-				<li><a href="https://github.com/rails/rails">Ruby on Rails</a></li>
-				<li><a href="https://github.com/Homebrew">Homebrew</a></li>
-			</ul>
-		</li>
-		<li>By the way, our <a href="https://github.com/github/docs">documentation</a> 🤓 is also open sourced.</li>
-	</ul>
-</details>
+It is also useful to mention the Winlink E850-96 board based on the Exynos850, which has very well documented support in the mainline kernel, and quite a lot of code available for it, being available at Linaro's git.
+The WinLink E850-96 board is also implemented in the mainline Linux kernel and U-Boot.
+
+Currently, the Samsung Galaxy A12 Nacho is implemented in UniLoader, a secondary bootloader used for a variety of purposes. The Samsung Galaxy A13 is WIP in a fork.
+
+- Credits: [U-Boot Docs](https://docs.u-boot.org/en/latest/board/samsung/e850-96.html)
 
 ---
 
-<sub>🤫 Psst! You can create your own [organization README](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile).</sub>
-
-<!--
-Made with 🖤
-🙇‍♂️🎤⬇️
--->
+<sub>postmarketOS close-to-booting on A13 :)</sub>
