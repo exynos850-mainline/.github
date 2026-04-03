@@ -1,6 +1,6 @@
 ## Welcome, this is where linux and AOSP is developed for the Galaxy A13 Exynos variants.
 
-![The Samsung Galaxy A13 (Exynos) is built on the Exynos850 Chipset.]([(https://www.businesskorea.co.kr/news/photo/202204/91014_105252_4128.png)])
+![The Samsung Galaxy A13 (Exynos) is built on the Exynos850 Chipset.](https://www.businesskorea.co.kr/news/photo/202204/91014_105252_4128.png)
 
 ### General information - Galaxy A13
 
