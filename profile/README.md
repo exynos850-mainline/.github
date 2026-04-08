@@ -44,8 +44,9 @@ Devices with an * next to their name are devices that may be supported in the fu
   No notes.
   
 ### Current status (A135F).
-- eMMC [X] Driver is probing.
-- No graphical output as of now.
+- eMMC
+  Works.
+- No graphical output so far.
 
 ### Info about the Exynos 850
 
