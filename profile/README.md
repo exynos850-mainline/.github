@@ -8,12 +8,12 @@
 Devices with an * next to their name are devices that may be supported in the future.
 - Samsung Galaxy A13 (SM-A135F)*
   
-  Note: there is 3GB, 4GB and 6GB ram variants for this phone.
+  Note: there are 3GB, 4GB and 6GB ram variants for this phone.
   Anything for this should also support the SM-A135M. Currently being worked on.
   
 - Samsung Galaxy M13 (SM-M135F)*
   
-  Note: there is 3GB, 4GB and 6GB ram variants for this phone. Yet to see anyone with this phone, so unlikely to be supported.
+  Note: there are 3GB, 4GB and 6GB ram variants for this phone. Yet to see anyone with this phone, so unlikely to be supported.
   
 - Samsung Galaxy F13 (SM-E135F)*
   
@@ -29,7 +29,7 @@ Devices with an * next to their name are devices that may be supported in the fu
   
 - Samsung Galaxy A21s (SM-A217F)*
   
-  Note: there is 3GB, 4GB and 6GB ram variants for this phone. Maybe.
+  Note: there are 3GB, 4GB and 6GB ram variants for this phone. Maybe.
   
 - Samsung Galaxy A04s (SM-A047F)
   
