@@ -1,4 +1,6 @@
-## Linux and AOSP development space for the Galaxy A13
+## AOSP development space for the Galaxy A13
+
+### Mainline development is at [exynos850-mainline](https://github.com/exynos850-mainline)
 
 ![The Samsung Galaxy A13 (Exynos) is built on the Exynos850 Chipset.](https://www.whatmobile.com.pk/control/news/assets/16122021/5b98474751eaa30307dee399cdf8fb4b_feat.jpg)
 
@@ -35,10 +37,10 @@ Currently, the Samsung Galaxy A12 Nacho is implemented in UniLoader, a secondary
 
 #### Currently working on the following for the Galaxy A13:
 
-- exynos850-mainline (paused, waiting for famfo to progress)
-- postmarketOS (downstream as of now)
+- [exynos850-mainline](https://github.com/exynos850-mainline/)
+- postmarketOS (downstream as of now, mainline WIP)
 - AOSP custom roms.
 
 ---
 
-<sub>postmarketOS close-to-booting on A13 :)</sub>
+<sub>7.0.0-rc6 :)</sub>
