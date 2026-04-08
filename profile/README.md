@@ -7,29 +7,41 @@
 
 Devices with an * next to their name are devices that may be supported in the future.
 - Samsung Galaxy A13 (SM-A135F)*
+  
   Note: there is 3GB, 4GB and 6GB ram variants for this phone.
-  Anything for this should also support the SM-A135M.
-  Currently being worked on.
+  Anything for this should also support the SM-A135M. Currently being worked on.
+  
 - Samsung Galaxy M13 (SM-M135F)*
-  Note: there is 3GB, 4GB and 6GB ram variants for this phone.
-  Yet to see anyone with this phone, so unlikely to be supported.
+  
+  Note: there is 3GB, 4GB and 6GB ram variants for this phone. Yet to see anyone with this phone, so unlikely to be supported.
+  
 - Samsung Galaxy F13 (SM-E135F)*
+  
   Note: Never seen anyone owning this, so probably not unless someone steps up.
+  
 - Samsung Galaxy A12 Nacho (SM-A127F)*
-  Note: there is a 3GB and 4GB ram variant for this phone.
-  Famfo is working on this phone.
+  
+  Note: there is a 3GB and 4GB ram variant for this phone. Famfo is working on this phone.
+  
 - Samsung Galaxy M12 (SM-M127F)*
-  Note: there is a 3GB and 4GB ram variant for this phone.
-  (Kinda) identical to A12 Nacho
+  
+  Note: there is a 3GB and 4GB ram variant for this phone. (Kinda) identical to A12 Nacho.
+  
 - Samsung Galaxy A21s (SM-A217F)*
-  Note: there is 3GB, 4GB and 6GB ram variants for this phone.
-  Maybe.
+  
+  Note: there is 3GB, 4GB and 6GB ram variants for this phone. Maybe.
+  
 - Samsung Galaxy A04s (SM-A047F)
+  
   Note: there is a 3GB and 4GB ram variant for this phone.
+  
 - Samsung Galaxy XCover 5 (SM-G525F)
-  Note: I've never seen anyone with this, ever.
-  Seems cool, so maybe, if I can get a tester.
+  
+  Note: I've never seen anyone with this, ever. Seems cool, so maybe, if I can get a tester.
+  
 - Samsung Galaxy A14 4G Exynos (SM-A145F/M)
+  No notes.
+  
 ### Current status (A135F).
 - eMMC [X] Driver is probing.
 - No graphical output as of now.
