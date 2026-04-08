@@ -40,6 +40,7 @@ Devices with an * next to their name are devices that may be supported in the fu
   Note: I've never seen anyone with this, ever. Seems cool, so maybe, if I can get a tester.
   
 - Samsung Galaxy A14 4G Exynos (SM-A145F/M)
+  
   No notes.
   
 ### Current status (A135F).
