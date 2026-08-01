@@ -44,10 +44,8 @@ Devices with an * next to their name are devices that may be supported in the fu
   No notes.
   
 ### Current status (A135F).
-- eMMC
- - Works.
-- Framebuffer console output
- - Works.
+- eMMC - working
+- Framebuffer console output - working
 
 ### Info about the Exynos 850
 
