@@ -1,6 +1,6 @@
 ## Mainline development space for the Samsung Exynos850 SOC
 
-### Go check out famfo's repo too, for A127F! [linux-a127f](https://git.catgirls.systems/famfo/linux-a127f)
+### Go check out Thomas’s a21s repo [linux-a217f](https://github.com/samsungexynos850/linux)
 ### Also see the [postmarketOS wiki for the Samsung Exynos850](https://wiki.postmarketos.org/wiki/Samsung_Exynos_850_(S5E3830))
 
 ### Exynos850 devices
@@ -44,8 +44,11 @@ Devices with an * next to their name are devices that may be supported in the fu
   No notes.
   
 ### Current status (A135F).
+- Booting.
 - eMMC - working
-- Framebuffer console output - working
+- Framebuffer output - working
+- USB - broken, WIP
+- touchscreen - broken
 
 ### Info about the Exynos 850
 
