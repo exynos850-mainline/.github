@@ -47,8 +47,9 @@ Devices with an * next to their name are devices that may be supported in the fu
 - Booting.
 - eMMC - working
 - Framebuffer output - working
-- USB - broken, WIP
-- touchscreen - broken
+- USB - working/partial
+- touchscreen - working
+- 3d accel - working
 
 ### Info about the Exynos 850
 
