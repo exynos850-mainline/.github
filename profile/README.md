@@ -1,8 +1,7 @@
 ## Mainline development space for the Samsung Exynos850 SOC
 
-### Go check out Thomas’s a21s repo [linux](https://github.com/samsungexynos850/linux)
-### Also see the [postmarketOS wiki for the Samsung Exynos850](https://wiki.postmarketos.org/wiki/Samsung_Exynos_850_(S5E3830))
-
+### Also see the [Nura wiki for the Samsung Exynos850](https://wiki.nura.eco/wiki/Samsung_Exynos_850))
+### and the [wiki for the Samsung Galaxy a13](https://wiki.nura.eco/wiki/Samsung_Galaxy_A13_(samsung-a13)))
 ### Exynos850 devices
 
 Devices with an * next to their name are devices that may be supported in the future.
@@ -82,6 +81,7 @@ Currently, the Samsung Galaxy A12 Nacho is implemented in uniLoader, a secondary
 - exynos850-mainline, right here
 - postmarketOS (mainline WIP)
 
+### Go check out Thomas’s a21s repo [linux](https://github.com/samsungexynos850/linux)
 ---
 
-<sub>7.2-rc5 :)</sub>
+<sub>7.3 :)</sub>
