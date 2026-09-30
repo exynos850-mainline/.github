@@ -1,7 +1,7 @@
 ## Mainline development space for the Samsung Exynos850 SOC
 
-### Also see the [Nura wiki for the Samsung Exynos850](https://wiki.nura.eco/wiki/Samsung_Exynos_850))
-### and the [wiki for the Samsung Galaxy a13](https://wiki.nura.eco/wiki/Samsung_Galaxy_A13_(samsung-a13)))
+### Also see the [Nura wiki for the Samsung Exynos850](https://wiki.nura.eco/wiki/Samsung_Exynos_850)
+### and the [wiki for the Samsung Galaxy a13](https://wiki.nura.eco/wiki/Samsung_Galaxy_A13_(samsung-a13))
 ### Exynos850 devices
 
 Devices with an * next to their name are devices that may be supported in the future.
