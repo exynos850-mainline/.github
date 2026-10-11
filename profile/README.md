@@ -1,46 +1,12 @@
 ## Mainline development space for the Samsung Exynos850 SOC
 
+### Also see: https://github.com/samsungexynos850/linux , development will also be occuring there
 ### Also see the [Nura wiki for the Samsung Exynos850](https://wiki.nura.eco/wiki/Samsung_Exynos_850)
 ### and the [wiki for the Samsung Galaxy a13](https://wiki.nura.eco/wiki/Samsung_Galaxy_A13_(samsung-a13))
 ### Exynos850 devices
 
-Devices with an * next to their name are devices that may be supported in the future.
-- Samsung Galaxy A13 (SM-A135F)*
-  
-  Note: there are 3GB, 4GB and 6GB ram variants for this phone.
-  Anything for this should also support the SM-A135M. Currently being worked on.
-  
-- Samsung Galaxy M13 (SM-M135F)*
-  
-  Note: there are 3GB, 4GB and 6GB ram variants for this phone. Yet to see anyone with this phone, so unlikely to be supported.
-  
-- Samsung Galaxy F13 (SM-E135F)*
-  
-  Note: Never seen anyone owning this, so probably not unless someone steps up.
-  
-- Samsung Galaxy A12 Nacho (SM-A127F)*
-  
-  Note: there is a 3GB and 4GB ram variant for this phone. Famfo is working on this phone.
-  
-- Samsung Galaxy M12 (SM-M127F)*
-  
-  Note: there is a 3GB and 4GB ram variant for this phone. (Kinda) identical to A12 Nacho.
-  
-- Samsung Galaxy A21s (SM-A217F)*
-  
-  Note: there are 3GB, 4GB and 6GB ram variants for this phone. Maybe.
-  
-- Samsung Galaxy A04s (SM-A047F)
-  
-  Note: there is a 3GB and 4GB ram variant for this phone.
-  
-- Samsung Galaxy XCover 5 (SM-G525F)
-  
-  Note: I've never seen anyone with this, ever. Seems cool, so maybe, if I can get a tester.
-  
-- Samsung Galaxy A14 4G Exynos (SM-A145F/M)
-  
-  No notes.
+If you would like a device supported, you will need to be able to test and be competent.
+You may contact me via email at: superaviation001@gmail.com
   
 ### Current status (A135F).
 - Booting.
@@ -49,7 +15,9 @@ Devices with an * next to their name are devices that may be supported in the fu
 - USB - working/partial
 - touchscreen - working
 - 3d accel - working
-
+- PMIC - working
+- Modem - WIP
+  
 ### Info about the Exynos 850
 
 ####  Exynos 850 Boot Flow
